@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ishan's Portfolio</title>
-    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/mine.jpeg" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,13 +44,13 @@
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-            <a class="btn btn--main" href="assets/resume.pdf" download
+            <a class="btn btn--main" href="assets/Ishan.pdf" download
               ><i class="bi bi-download"></i> Resume</a
             >
           </nav>
 
           <h1 class="header__logo">
-            <a href="/">
+            <a href="#about">
               <span>Ishan</span>
               <span>Arora</span>
             </a>
@@ -58,7 +58,7 @@
 
           <div class="header__contact">
             <a href="mailto:aroraishan51@gmail.com">aroraishan51@gmail.com</a>
-            <a class="btn btn--light" href="assets/resume.pdf" download>
+            <a class="btn btn--light" href="assets/Ishan.pdf" download>
               <i class="bi bi-download"></i> Resume
             </a>
           </div>
@@ -77,10 +77,10 @@
       <div class="container">
         <div class="hero__wrapper">
           <div class="hero__img">
-            <img src="assets/mine(1).jpg" alt="Profile Picture" />
+            <img src="assets/mine.jpeg" alt="Profile Picture" />
           </div>
           <h1 class="hero__title animate__animated animate__slideInUp">
-            Junior Software<br />
+            Full Stack<br />
             Developer
           </h1>
           <p class="hero__content animate__animated animate__slideInUp">
@@ -128,36 +128,36 @@
             </div>
           </div>
           <div class="portfolio__box">
-            <img class="portfolio__img" src="https://code-projects.org/wp-content/uploads/2020/11/Screenshot-from-2020-11-05-19-43-44.png" alt="Portfolio Items" />
+            <img class="portfolio__img" src="assets/Movix app.png" alt="Portfolio Items" />
             <div class="portfolio__info">
-              <h3 class="portfolio__title">Quiz Application using Django</h3>
+              <h3 class="portfolio__title">Movix (Vite+React App)</h3>
               <p class="portfolio__content">
-                A Quiz application build on the top of Django REST API in collaboration with IT coders where users can play quiz in real time environment. It includes socket programming client server architecture and browser management.
+                Indulge in a world of entertainment like never before with Movix, the pinnacle of video streaming platforms. Seamlessly designed and meticulously crafted, It is your gateway to a universe of captivating movies and TV shows, curated to cater to your every entertainment whim.
               </p>
-              <a class="portfolio__link" href="https://github.com/ishn123/QuizApp">
+              <a class="portfolio__link" href="https://movix-e6ql.vercel.app/">
                 <i class="bi bi-arrow-up-right-circle-fill"></i>
               </a>
             </div>
           </div>
           <div class="portfolio__box">
-            <img class="portfolio__img" src="assets/portfolio-02.jpg" alt="Portfolio Items" />
+            <img class="portfolio__img" src="assets/Pirate.png" alt="Portfolio Items" />
             <div class="portfolio__info">
-              <h3 class="portfolio__title">Banking System</h3>
+              <h3 class="portfolio__title">Pirate KART</h3>
               <p class="portfolio__content">
-                A Java Enterprise Application (JEEE) which is build using JSP and abstract window toolkit (AWT) providing a basic functionality of banking like credit-debit to users with transaction consistency.
+                A React-based e-Commerce web app with Strapi CMS integration.Implemented user authentication, cart management and secure payment integration using stripe.Created responsive product listings, search, and sorting options for improved navigation and product discovery. Tech: ReactJS, Strapi, Redux, SCSS.
               </p>
-              <a class="portfolio__link" href="https://github.com/ishn123/BankingSys">
+              <a class="portfolio__link" href="https://ecommerce-teal-delta.vercel.app/">
                 <i class="bi bi-arrow-up-right-circle-fill"></i>
               </a>
             </div>
           </div>
           <div class="portfolio__box">
-            <img class="portfolio__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mona_lisa_the_starry_night_o_lbfgs_i_content_h_720_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg/220px-Mona_lisa_the_starry_night_o_lbfgs_i_content_h_720_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" alt="Portfolio Items" />
+            <img class="portfolio__img" src="assets/Buzzer.png" alt="Portfolio Items" />
             <div class="portfolio__info">
-              <h3 class="portfolio__title">Neural Style Transfer</h3>
+              <h3 class="portfolio__title">Buzzer (Social Media)</h3>
               <p class="portfolio__content">
-                A Deep Learning model is which to transfer style from one image to another trained on top of VGG-16 and customized loss function using pytorch and numpy and OpenCV.
-              <a class="portfolio__link" href="https://github.com/ishn123/Neural-Style-Transfer">
+                A MERN-based social media web App with user authentication, profiles, feeds,multimedia post creation, and Caption. Ensured responsive design,Hashing for password encryption using bcrypt.js across devices and JWT web tokens for auth. Tech: ReactJS, Redux, AXIOS.
+              <a class="portfolio__link" href="https://social-media-yydx.vercel.app/#/login">
                 <i class="bi bi-arrow-up-right-circle-fill"></i>
               </a>
             </div>
@@ -173,16 +173,36 @@
     </section>
 
     <!-- About Me Section -->
-    <section class="section" id="about">
+    <section class="section" id="about" style="padding: 4rem 0;">
       <div class="container">
         <div class="section__header">
           <h2 class="section__title">About</h2>
           <p class="section__subtitle">Few things about me</p>
         </div>
         <div class="about">
-          <h3 class="about__intro">👋 Hi, I'm Ishan Arora</h3>
+          <h3 class="about__intro"><span class="wave">👋</span> Hi,I'm Ishan Arora</h3>
           <p class="about__bio">
-            Currently working as Junior Software Developer, implementing the real life problems using Software applications build on top of Modern Tech Stack. Mentoring students at Geekster, solving doubts related to Data Structures and Algorithms. Creating amazing content for my youtube channel where one can access solutions to Leetcode coding problems asked by most of the MAANG companies.
+            a passionate Full Stack Developer at Mercedes Benz Research and Development India. With a love for turning complex ideas into elegant solutions, I'm driven by my dedication to creating seamless user experiences and pushing the boundaries of web development.
+
+🌐 As a Full Stack Developer, I specialize in architecting and implementing end-to-end web solutions that harmoniously integrate aesthetics and functionality. From pixel-perfect user interfaces that captivate attention to robust server-side systems that ensure reliability, I take pride in my ability to bridge the gap between design and code.
+
+🚀 What sets me apart is not only my technical prowess but also my commitment to continuous learning. In a rapidly evolving field like web development, I embrace challenges as opportunities to learn and refine my skills. This attitude has allowed me to stay at the forefront of industry trends and deliver solutions that stand the test of time.
+
+🤝 Collaboration is at the heart of my work philosophy. I relish working alongside talented designers, enthusiastic colleagues, and visionary clients to transform ideas into reality. Through open communication and a keen eye for detail, I believe in creating synergies that yield exceptional results.
+
+🌟 Beyond coding, I'm a seeker of knowledge, an avid problem solver, and a firm believer in the transformative power of technology. When I'm not immersed in lines of code, you might find me exploring new programming languages, delving into user experience research, or even indulging in a bit of creative design.
+
+🎯 My mission is clear: to craft digital experiences that leave a lasting impression. Whether it's developing dynamic applications, optimizing performance, or embracing new methodologies, I'm ready to take on challenges that push the boundaries of what's possible in the digital landscape.
+
+📬 If you're as passionate about technology and innovation as I am, I'd love to connect. Feel free to reach out for collaborations, discussions, or simply to share a cup of virtual coffee. Let's create the future together!
+
+Feel free to personalize and modify this description to align with your unique experiences and aspirations. Remember, your portfolio is your canvas to showcase your skills and personality, so make sure your description resonates with your true self.
+
+
+
+
+
+
           </p>
           <a class="about__link" href="#contact">Contact Me<i class="bi bi-arrow-right"></i></a>
 
@@ -201,7 +221,10 @@
             <li class="btn btn--light">REST API</li>
             <li class="btn btn--light">Machine Learning</li>
             <li class="btn btn--light">Deep Learning</li>
-            <li class="btn btn--light">Spring boot</li>
+            <li class="btn btn--light">Postman API</li>
+            <li class="btn btn--light">React JS</li>
+            <li class="btn btn--light">Redux</li>
+            <li class="btn btn--light">React Native</li>
           </ul>
         </div>
       </div>
@@ -223,12 +246,12 @@
                     <i class="bi bi-chat-square-quote"></i>
                   </span>
                   <p class="testimonials__quotes">
-                    Can-do Attitude : Good job on completing the tasks on time
+                    🤝 As a team player, Ishan excels in collaboration. Their open communication style, willingness to share insights, and eagerness to contribute ideas have fostered an environment of creativity and growth within our team. They have a knack for translating complex technical jargon into understandable terms, making them an invaluable bridge between developers and non-technical stakeholders.
                   </p>
                   <div class="testimonials__author">
                     <div class="testimonials__authorInfo">
-                      <h4>Pranay Mudi</h4>
-                      <p>Senior Software Test Automation Engineer at Epam Systems</p>
+                      <h4>Sanaula Haq</h4>
+                      <p>Assistant Vice President, Digital Bank of Singapore</p>
                     </div>
                   </div>
                 </div>
@@ -237,12 +260,12 @@
                     <i class="bi bi-chat-square-quote"></i>
                   </span>
                   <p class="testimonials__quotes">
-                    Oustanding performance on all projects by leading 1st on scorecard.
+                    🌐 Ishan's projects bear testimony to their commitment to delivering excellence. Whether it's architecting robust server-side systems, optimizing performance for scalability, or conceptualizing user-centric features, their contributions consistently exceed expectations.
                   </p>
                   <div class="testimonials__author">
                     <div class="testimonials__authorInfo">
-                      <h4>Udaybhaskar Valapadasu</h4>
-                      <p>Junior Software Test Automation Engineer at Epam Systems</p>
+                      <h4>Tanvi Aggarwal</h4>
+                      <p>Principal Software Enginner,MBRDI</p>
                     </div>
                   </div>
                 </div>
@@ -251,12 +274,12 @@
                     <i class="bi bi-chat-square-quote"></i>
                   </span>
                   <p class="testimonials__quotes">
-                    Outstanding mentoring and assistance done at Geekster.
+                    🚀 Ishan's impact is truly transformative. Mentees under their guidance have not only gained a solid foundation in DSA but have also developed a mindset of analytical thinking and strategic problem-solving that extends far beyond the realm of algorithms.
                   </p>
                   <div class="testimonials__author">
                     <div class="testimonials__authorInfo">
                       <h4>Bittu Aggarwal</h4>
-                      <p>Academic Head and Counsellor at Geekster</p>
+                      <p>Academic Head and Counsellor,Geekster</p>
                     </div>
                   </div>
                 </div>
